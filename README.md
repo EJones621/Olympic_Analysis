@@ -5,7 +5,7 @@
 ### Olympics
 
 ## Reason why we selected our topic
-### We're all interested in sports.
+We're all interested in sports.
 
 ## Description of our data source
 ###
