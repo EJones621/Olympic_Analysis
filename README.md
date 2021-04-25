@@ -1,19 +1,65 @@
 # Olympic_Analysis
 
+## Team
+The team consists of the following 4 members: Alex Glickman, Ethan Jones, Matt Ansaldi and Cecily Martin
 
 ## Selected Topic
-### Olympics
+An Olympic data analysis is being conducted on 120 years of Olympic history. Specifically, data on athletes and medal results will be analyzed from Athens 1896 to Rio 2016 to explore whether a country’s GDP, population size, life expectancy rate and child mortality rate have an impact on a country’s Olympic medal counts.
 
 ## Reason why we selected our topic
 We're all interested in sports.
 
-## Description of our data source
-###
+### Resources Utilized to Complete Analysis
+* **Data Sources:** 
+* [120 Years of Olympic History: Athletes and Results](https://www.kaggle.com/heesoo37/120-years-of-olympic-history-athletes-and-results)
+* [GDP per Capita for Countries by Year]( https://docs.google.com/spreadsheets/d/10vHiHnBQre07TwX75vTc_H1lf-w5-hbe5mZH4ro6QNE/edit#gid=176703676)
+* [Population for Countries by Year](https://docs.google.com/spreadsheets/d/14_suWY8fCPEXV0MH7ZQMZ-KndzMVsSsA5HdR-7WqAC0/edit#gid=569008164)
+* [Life Expectancy for Countries by Year](https://docs.google.com/spreadsheets/d/11mulzUH3_cueq-V9D5KIlo9oHE9YYZrUSeVyCin7_rM/edit#gid=176703676)
+* [Child Mortality for Countries by Year](https://docs.google.com/spreadsheets/d/1Av7eps_zEK73-AdbFYEmtTrwFKlfruBYXdrnXAOFVpM/edit#gid=176703676)
+* **Entity Relationship Diagram (ERD) Tool**: [Quick Database Diagrams](https://www.quickdatabasediagrams.com/)
+* **Languages:** Python
+* **Python Dependencies:** pymongo, scikit-learn, pandas, numpy, seaborn, matplotlib
+* **Applications:** MongoDB
+* **Tools:** MS Excel, Jupyter Notebook 
+
+## Description of our data sources
+Data sources utilized were found via [Kaggle.com]( https://www.kaggle.com/) and [Gapminder.org](https://www.gapminder.org/). Gapminder combines data from a variety of sources. 
 
 ## Questions we hope to answer with the data
-###
+* Is there a correlation between GDP and medal count?
+* How important is the country’s population in terms of winning medals?
+* Which parameter plays the biggest part when it is tested on its own?
+* Does a country’s change in GDP over time, have an impact?  
+* Which countries won the most medals over time?
+* How many medals are forecasted to be won at upcoming Games (Tokyo 2020 / Beijing 2022)?  
+* What are the GDP forecasts for years with upcoming Games (Tokyo 2020 / Beijing 2022)? 
+* Which countries are expected to lead the medal tally?
+* Do Olympic host countries win more medals?
+* Does seasonality (winter / summer) have an effect?
+* What is the mean age of athletes?
+* Does athlete age / gender have an effect?
+* Are there other factors that could impact Olympic medal counts?
+
 
 ## Description of the communication protocols
-###
+* A Trello board has been setup, with alerts for all deliverables. The board will be updated on an ongoing basis.
+* Team communicates daily via Slack 
+* Team meets via Google Meet, outside of scheduled 2-hour class sessions, twice per week and attends office hours. See calendar. 
+* A Google Drive is utilized for storing meeting notes, datasets and other files which enable collaboration.
+* Each team member has an individual branch on the GitHub project repository.
+
+## Database
+A provisional database was created in MongoDB. Lines 3 - 5 within the (LINK NOTEBOOK) connect to the database, upload data to the database and shows data being taken off of the database. 
+
+This ERD highlights the flow of information from one table, or CSV file, to another and captures the primary keys, foreign keys and data types for each column, within the corresponding CSV file.
+
+![DBERD.png](https://github.com/cmmgw/Olympic_Analysis/blob/main/DBERD.png)
+
+## Machine Learning Model
+A machine learning mockup was created, which takes in data from the provisional database, with the intent to predict the medal count by country based on GDP and population size. The output labels were the medals. See [cleaning_machine_learning.ipynb](https://github.com/cmmgw/Olympic_Analysis/blob/main/Import%20to%20MongoDB/cleaning_machine_learning.ipynb) Jupyter Notebook.
+
+
+A supervised learning model was selected because it captures non-binary non-classifiers. The model was trained 
+
 
 =======
