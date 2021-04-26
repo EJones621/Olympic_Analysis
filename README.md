@@ -1,4 +1,3 @@
-
 # Olympic Analysis
 
 ## Team
