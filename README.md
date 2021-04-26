@@ -1,7 +1,12 @@
+<<<<<<< HEAD
 # Olympic Analysis
 
 ## Team
 The team consists of the following 4 members: Alex Glickman, Ethan Jones, Matt Ansaldi and Cecily Martin
+=======
+# Olympic_Analysis
+matt test
+>>>>>>> e8f10d18af31d88f069c962695de7562a4992b7a
 
 ## Selected Topic
 An Olympic data analysis is being conducted on 120 years of Olympic history. Specifically, data on athletes and medal results will be analyzed from Athens 1896 to Rio 2016 to explore whether a country’s GDP, population size, life expectancy rate and child mortality rate have an impact on a country’s Olympic medal counts.
