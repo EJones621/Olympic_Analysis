@@ -59,15 +59,18 @@ Data sources utilized were found via [Kaggle.com]( https://www.kaggle.com/) and 
 ## Database
 A provisional database was created in MongoDB. Lines 3 - 5 within the [cleaning_machine_learning.ipynb](https://github.com/cmmgw/Olympic_Analysis/blob/main/Import%20to%20MongoDB/cleaning_machine_learning.ipynb) Jupyter Notebook connect to the database, upload data to the database and shows data being taken off of the database. 
 
-This ERD highlights the flow of information from one table, or CSV file, to another and captures the primary keys, foreign keys and data types for each column, within the corresponding CSV file.
+This ERD highlights the flow of information from one table, or CSV file, to another and captures the primary keys, foreign keys, and data types for each column, within the corresponding CSV file.
 
 ![DBERD.png](https://github.com/cmmgw/Olympic_Analysis/blob/main/DBERD.png)
 
 ## Machine Learning Model
-A machine learning model mockup was created, which takes in data from the provisional database, with the intent to predict the medal count by country based on GDP and population size. The output labels were the medals. See [cleaning_machine_learning.ipynb](https://github.com/cmmgw/Olympic_Analysis/blob/main/Import%20to%20MongoDB/cleaning_machine_learning.ipynb) Jupyter Notebook.
+Before the data was fed into the machine learning model, it was preprocessed. The first and most time consuming step was to merge the datasets. The most common column to merge on was the column containing the country name. This is where most of the cleaning was done as names such as St. Lucia verus Saint Lucia wouldn't be found as a match. The majority of this type of cleaning was done manually in Excel since writing lines of code for each country name that didn't match would've been even more time consuming.
 
-A supervised learning model was selected because it captures non-binary non-classifiers. We are training model by selecting data, preprocessing it, and using a random forest regression model to predict outcomes. The model’s accuracy is based on the Root Mean Squared Error (RMSE) of 24.70%. The RMSE is the standard deviation of the residuals where the residuals are the prediction errors. Lower values indicate better fit. The model works by getting input data, scaling it with the standard scaler and using random forest to train the model.
+Once the cleaning was done, it was time to add the code for the machine learning model. The machine learning model we chose was random forest. This decision came from the fact that our data is labeled (points to supervised machine learning) and that our output (medal count) is numerical. Random forests are made up of many decision trees (a decision tree can be thought of as a collection of if else statements). Each tree in the random forest makes its own prediction on the ouput. After this, the average of all the outputs is computed to give you the final result. That's to put it in simple terms!
 
+According to the regressor.score function, our model has about 80% accuracy. The RMSE (root mean square error) is about 5. This means that the standard deviation of the residuals (prediction errors) is about 5 medals. Residuals measure how far from the regression line the actual data points are. That's pretty good for about a week worth of work.
+
+See [cleaning_machine_learningV6.ipynb](https://github.com/cmmgw/Olympic_Analysis/blob/main/Notebooks/cleaning_machine_learningV6.ipynb) Jupyter Notebook.
 
 =======
 
