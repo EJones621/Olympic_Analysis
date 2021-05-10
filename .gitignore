@@ -7,7 +7,7 @@ __pycache__/
 *.so
 
 # Adding the connection string for MongoDB
-password.py
+password.py~
 
 # Distribution / packaging
 .Python
