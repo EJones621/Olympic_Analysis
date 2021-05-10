@@ -79,7 +79,7 @@ See [cleaning_machine_learningV6.ipynb](https://github.com/cmmgw/Olympic_Analysi
 ***Pandas*** will be used to clean the data and perform an exploratory analysis. Further analysis will be completed using ***Python***.
 
 ## Database Storage
-***MongoDB*** is the database we intend to use, and possibly integrate ***Flask*** to display the data.
+The database we chose is MongoDB. Within our code, we connect to the database, upload the xlsx and csv files as separate collections, pull each collection off of the database, then turn each collection into a DataFrame. We've uploaded a file called password.py (added to the gitignore file) to GitHub that contains a variable that holds the connection string that allows each team member to access the data on the database.
 
 ## Machine Learning
 ***SciKitLearn*** is the Machine Learning library we'll be using to create a classifier. The train-test-split function from the SciKitLearn library is used to setup our training and testing. Random Forest Regression was used to complete the training.
