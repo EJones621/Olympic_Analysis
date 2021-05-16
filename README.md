@@ -47,6 +47,7 @@ Data sources utilized were found via [Kaggle.com]( https://www.kaggle.com/) and 
 * Are there other factors that could impact Olympic medal counts?
 * How have the Olympic Games evolved over time by looking at the participation of different nations, sports and events?  
 
+<<<<<<< HEAD
 ## Description of the communication protocols
 * A Trello board has been setup, with alerts for all deliverables. The board will be updated on an ongoing basis.
 * Team communicates daily via Slack 
@@ -54,6 +55,8 @@ Data sources utilized were found via [Kaggle.com]( https://www.kaggle.com/) and 
 * A [Google Drive](https://drive.google.com/drive/folders/19HNRa2zpd1u6bmqXRbQOobYoCC_3iSnQ?usp=sharing) is utilized for storing meeting notes, datasets and other files which enable collaboration.
 * Each team member has an individual branch on the GitHub project repository.
 
+=======
+>>>>>>> 318edbb8a1bfd1266a5649224015232ea2445a65
 ## Database
 A provisional database was created in MongoDB. Lines 3 - 5 within the [cleaning_machine_learning.ipynb](https://github.com/cmmgw/Olympic_Analysis/blob/main/Import%20to%20MongoDB/cleaning_machine_learning.ipynb) Jupyter Notebook connect to the database, upload data to the database and shows data being taken off of the database. 
 
