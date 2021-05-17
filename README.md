@@ -74,11 +74,9 @@ According to the regressor.score function, our model has about 80% accuracy. The
 See [cleaning_machine_learningV6.ipynb](https://github.com/cmmgw/Olympic_Analysis/blob/main/Notebooks/cleaning_machine_learningV6.ipynb) Jupyter Notebook.
 
 ## Dashboard
-An interactive dashboard has been drafted in Tableau to display the findings of the data. A storyboard of the dashboard can be viewed in [Google Slides](https://docs.google.com/presentation/d/1Wga9z9AMnTUY_rI6Oxavn9FzNVRZTxJat0wkYqEAgJU/edit?usp=sharing). See below for additional details.
+An interactive dashboard has been drafted in Tableau to display the findings of the data. A storyboard of the initial dashboard storyboard can be viewed in [Google Slides](https://docs.google.com/presentation/d/1Wga9z9AMnTUY_rI6Oxavn9FzNVRZTxJat0wkYqEAgJU/edit?usp=sharing). See below for additional details.
 
-![Dashboard_Storyboard_Contents.JPG](https://github.com/cmmgw/Olympic_Analysis/blob/main/Graphics/Dashboard_Storyboard_Contents.JPG)
-
-![Dashboard_Storyboard.JPG](https://github.com/cmmgw/Olympic_Analysis/blob/main/Graphics/Dashboard_Storyboard.JPG)
+![Dashboard_Tableau.JPG](https://github.com/cmmgw/Olympic_Analysis/blob/main/Resources/Dashboard_Tableau.JPG)
 
 ## Presentation
 A presentation has been drafted, outlining the project. The presentation can be viewed in [Google Slides](https://docs.google.com/presentation/d/12ERjpT49VNtpophrSCF3aUpZFdYn5OZxcCKLm1VYmOA/edit?usp=sharing).
