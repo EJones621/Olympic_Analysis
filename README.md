@@ -1,10 +1,10 @@
-# Olympic Analysis
+# Olympic Games Medal Count Analysis
 
 ## Team
 The team consists of the following 4 members: Alex Glickman, Ethan Jones, Matt Ansaldi and Cecily Martin
 
 ## Selected Topic
-An Olympic data analysis is being conducted on 120 years of Olympic history. Specifically, data on athletes and medal results will be analyzed from Athens 1896 to Rio 2016 to explore whether a country’s GDP and population size have an impact on a country’s Olympic medal counts.
+An Olympic data analysis is being conducted on 120 years of Olympic history. Specifically, data on athletes and medal results will be analyzed from Athens 1896 to Rio 2016 to explore whether a country’s GDP, population and team size have an impact on a country’s Olympic medal counts.
 
 ## Reason Why Topic was Selected
 We're all interested in sports.
@@ -93,9 +93,19 @@ The above are pieces of data the team either wanted to include or go into more i
 
 
 ## Dashboard
-An interactive dashboard has been drafted in Tableau to display the findings of the data. A storyboard of the initial dashboard storyboard can be viewed in [Google Slides](https://docs.google.com/presentation/d/1Wga9z9AMnTUY_rI6Oxavn9FzNVRZTxJat0wkYqEAgJU/edit?usp=sharing). See below for additional details.
+Tableau was utilized to create an interactive dashboard to better visualize whether a participating and/or host country’s GDP per Capita, Population and Team Size has an impact on Olympic medal counts. The dashboard consists of a variety of charts to visualize the data, by using a map, pie charts, a bar chart, numerous scatter plots and dot plots. The interactive elements consist of universal filters by Olympic Game year and adjustable zoom on the map. 
 
 ![Dashboard_Tableau.JPG](https://github.com/cmmgw/Olympic_Analysis/blob/main/Resources/Dashboard_Tableau.JPG)
+
+Overtime 194 countries have participated in the Olympic Games, during the 120-year period of Athens 1896 – Rio 2016, however the number of participating countries varies by Olympic year. To drill down on the data by Olympic year, one can click on the Olympic logos. From 1924 – 1992 the summer and winter games were held in the same year, so the data filters accordingly, by year. 
+
+When looking at the map, one can tell if a country participated in the selected year, based off whether the country is shaded. The darker the shade of the country, the higher the GDP per Capita. If one hovers over the pie chart in the selected country, one can also see the medal breakdown or refer to the bar chart on the right to view the top winning countries in that select year. As can be seen from the unfiltered data, the US has consistently won the most medals overtime.
+
+When looking at the total medal count distribution in the various scatter plots, one can see that population and team size are more correlated than GDP per Capita, as the data is less scattered.
+
+In total, 22 countries have hosted an Olympic Games. Countries that host an Olympic game tend to win more medals than when they are a participating nation. To view a breakdown of how all participating teams performed by Olympic Game year, the Overall Team Performance plot visualizes the total medal count by team and year.
+
+
 
 ## Presentation
 A presentation has been drafted, outlining the project. The presentation can be viewed in [Google Slides](https://docs.google.com/presentation/d/12ERjpT49VNtpophrSCF3aUpZFdYn5OZxcCKLm1VYmOA/edit?usp=sharing).
