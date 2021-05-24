@@ -73,6 +73,25 @@ According to the regressor.score function, our model has about 80% accuracy. The
 
 See [cleaning_machine_learningV6.ipynb](https://github.com/cmmgw/Olympic_Analysis/blob/main/Notebooks/cleaning_machine_learningV6.ipynb) Jupyter Notebook.
 
+## Results of the analysis
+
+The largest question that was answered is how correlated a country's total GDP is to its  medal count. According to analysis, it does not have much of an affect on the medal count. In fact, there was generally a low correlation between most of the data versus the total medals. The highest correlation was team size, which makes sense do to have more of a chance to win with more players. That correlation is .83, so other factors come into play (like talent, for example). In all, not one piece of data truly seemed to affect the total medal count.
+
+## Recommendation for future analysis
+
+If this research were to continue, more machine learning models should be tested. The random forest had did have an  85% accuracy. More investigation, however, may see higher accuracy. Some models may be more complex and need more resources and data. With the time and resources used, random forest was used from the beginning and was not changed.
+
+## Anything the team would have done differently
+
+A few items the team would have wanted to expand on are:
+
+* Analyze gender more
+* Seasonality in terms of breaking out the data versus breaking out the data by year
+* How a country performs for host countries vs non-host countries
+
+The above are pieces of data the team either wanted to include or go into more indepth with. 
+
+
 ## Dashboard
 An interactive dashboard has been drafted in Tableau to display the findings of the data. A storyboard of the initial dashboard storyboard can be viewed in [Google Slides](https://docs.google.com/presentation/d/1Wga9z9AMnTUY_rI6Oxavn9FzNVRZTxJat0wkYqEAgJU/edit?usp=sharing). See below for additional details.
 
