@@ -4,7 +4,7 @@
 The team consists of the following 4 members: Alex Glickman, Ethan Jones, Matt Ansaldi and Cecily Martin
 
 ## Selected Topic
-An Olympic data analysis is being conducted on 120 years of Olympic history. Specifically, data on athletes and medal results will be analyzed from Athens 1896 to Rio 2016 to explore whether a country’s GDP, population size, life expectancy rate and child mortality rate have an impact on a country’s Olympic medal counts.
+An Olympic data analysis is being conducted on 120 years of Olympic history. Specifically, data on athletes and medal results will be analyzed from Athens 1896 to Rio 2016 to explore whether a country’s GDP and population size have an impact on a country’s Olympic medal counts.
 
 ## Reason Why Topic was Selected
 We're all interested in sports.
@@ -47,7 +47,6 @@ Data sources utilized were found via [Kaggle.com]( https://www.kaggle.com/) and 
 * Are there other factors that could impact Olympic medal counts?
 * How have the Olympic Games evolved over time by looking at the participation of different nations, sports and events?  
 
-<<<<<<< HEAD
 ## Description of the communication protocols
 * A Trello board has been setup, with alerts for all deliverables. The board will be updated on an ongoing basis.
 * Team communicates daily via Slack 
@@ -55,8 +54,6 @@ Data sources utilized were found via [Kaggle.com]( https://www.kaggle.com/) and 
 * A [Google Drive](https://drive.google.com/drive/folders/19HNRa2zpd1u6bmqXRbQOobYoCC_3iSnQ?usp=sharing) is utilized for storing meeting notes, datasets and other files which enable collaboration.
 * Each team member has an individual branch on the GitHub project repository.
 
-=======
->>>>>>> e16c4b8411938c9fb0bcd6339c0d76d582e22d45
 ## Database
 A provisional database was created in MongoDB. Lines 3 - 5 within the [cleaning_machine_learning.ipynb](https://github.com/cmmgw/Olympic_Analysis/blob/main/Import%20to%20MongoDB/cleaning_machine_learning.ipynb) Jupyter Notebook connect to the database, upload data to the database and shows data being taken off of the database. 
 
@@ -77,11 +74,9 @@ According to the regressor.score function, our model has about 80% accuracy. The
 See [cleaning_machine_learningV6.ipynb](https://github.com/cmmgw/Olympic_Analysis/blob/main/Notebooks/cleaning_machine_learningV6.ipynb) Jupyter Notebook.
 
 ## Dashboard
-An interactive dashboard has been drafted in Tableau to display the findings of the data. A storyboard of the dashboard can be viewed in [Google Slides](https://docs.google.com/presentation/d/1Wga9z9AMnTUY_rI6Oxavn9FzNVRZTxJat0wkYqEAgJU/edit?usp=sharing). See below for additional details.
+An interactive dashboard has been drafted in Tableau to display the findings of the data. A storyboard of the initial dashboard storyboard can be viewed in [Google Slides](https://docs.google.com/presentation/d/1Wga9z9AMnTUY_rI6Oxavn9FzNVRZTxJat0wkYqEAgJU/edit?usp=sharing). See below for additional details.
 
-![Dashboard_Storyboard_Contents.JPG](https://github.com/cmmgw/Olympic_Analysis/blob/main/Graphics/Dashboard_Storyboard_Contents.JPG)
-
-![Dashboard_Storyboard.JPG](https://github.com/cmmgw/Olympic_Analysis/blob/main/Graphics/Dashboard_Storyboard.JPG)
+![Dashboard_Tableau.JPG](https://github.com/cmmgw/Olympic_Analysis/blob/main/Resources/Dashboard_Tableau.JPG)
 
 ## Presentation
 A presentation has been drafted, outlining the project. The presentation can be viewed in [Google Slides](https://docs.google.com/presentation/d/12ERjpT49VNtpophrSCF3aUpZFdYn5OZxcCKLm1VYmOA/edit?usp=sharing).
