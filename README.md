@@ -81,6 +81,15 @@ The largest question that was answered is how correlated a country's total GDP i
 
 If this research were to continue, more machine learning models should be tested. The random forest had did have an  85% accuracy. More investigation, however, may see higher accuracy. Some models may be more complex and need more resources and data. With the time and resources used, random forest was used from the beginning and was not changed.
 
+## Anything the team would have done differently
+
+A few items the team would have wanted to expand on are:
+
+* Analyze gender more
+* Seasonality in terms of breaking out the data versus breaking out the data by year
+* How a country performs for host countries vs non-host countries
+
+The above are pieces of data the team either wanted to include or go into more indepth with. 
 
 
 ## Dashboard
