@@ -93,9 +93,11 @@ The above are pieces of data the team either wanted to include or go into more i
 
 
 ## Dashboard
-Tableau was utilized to create an interactive dashboard to better visualize whether a participating and/or host country’s GDP per Capita, Population and Team Size has an impact on Olympic medal counts. The dashboard consists of a variety of charts to visualize the data, by using a map, pie charts, a bar chart, numerous scatter plots and dot plots. The interactive elements consist of universal filters by Olympic Game year and adjustable zoom on the map. 
+Tableau was utilized to create an interactive dashboard to better visualize whether a participating and/or host country’s GDP per Capita, Population and Team Size has an impact on Olympic medal counts. The dashboard consists of a variety of charts to visualize the data, by using a map, pie charts, a bar chart, and numerous scatter and dot plots. The interactive elements consist of universal filters by Olympic Game year and adjustable zoom on the map. To view the dashboard via Tableau **[here](https://public.tableau.com/profile/cecily2928#!/vizhome/OlympicGamesAnalysis_16208742600370/OlympicGamesAnalysis)**.
+
 
 ![Dashboard_Tableau.JPG](https://github.com/cmmgw/Olympic_Analysis/blob/main/Resources/Dashboard_Tableau.JPG)
+
 
 Overtime 194 countries have participated in the Olympic Games, during the 120-year period of Athens 1896 – Rio 2016, however the number of participating countries varies by Olympic year. To drill down on the data by Olympic year, one can click on the Olympic logos. From 1924 – 1992 the summer and winter games were held in the same year, so the data filters accordingly, by year. 
 
